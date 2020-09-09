@@ -8,8 +8,37 @@ ul {
     top: 0;
     width: 100%;
 
+
   }
  
+  header {
+      position:fixed;
+      top: 25px;
+      left: 80px;
+      color: white;
+      font-family: Arial, sans-serif;
+      font-size: large;
+      font-weight: bold;
+  }
+  h1 {
+    position:fixed;
+    top: 35px;
+    left: 80px;
+    color: white;
+    font-size: small;
+
+}
+.square {
+    height: 35px;
+    width: 35px;
+    position:fixed;
+    top: 25px;
+    left: 35px;
+    color: white;
+    background-color: rgb(14, 170, 231);
+  }
+
+
   li {
     float: right;
     padding: 30px;
